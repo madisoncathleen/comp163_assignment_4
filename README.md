@@ -15,3 +15,18 @@ student_name = ("elvira")
 study_hours = 0
 Programming = ''
 Math ='' 
+
+if current_gpa <= 2.1: # playing with the gpa variable to print different things with diff values
+    print("Placeholder1")
+elif 2.1 < current_gpa <= 3.8 or stress_level > 50: # making sure we're in a range for gpaand a simple less than 50 for our stress
+    print("Placeholder2")
+elif current_gpa >= 3.8:
+    if study_options is not None and valid_courses: # checking if study options is blank and also that valid is true
+        print("Placeholder 3")
+        if "bruh" in course_test: # checks for that exact value inside of course_test
+            print("bruh checked")
+        else: print("Not Placeholder 3")
+    elif course_test is None: # our course text is bruh right now and it isn't changing
+        print("Impossible")
+else:
+    print ("Tests Done") #voila we have a nice example now!! 
