@@ -14,4 +14,4 @@ social_points = 25
 student_name = ("elvira") 
 study_hours = 0
 Programming = ''
-Math =''
+Math ='' 
