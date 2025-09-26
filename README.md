@@ -89,6 +89,8 @@ print(f"semesta outcome: {meowoutcome}")
 if "Math" not in study_options:                     #an example of a 'not in' usage
     print("bunny lost the calculator :(")
 
+meowoutcome2 = {'pls spare me im so tired': student_name,'bunny gpa': current_gpa, 'bunny study': study_hours,'charizzma': social_points, 'stres': stress_level} print(f"final warrior stuff idk bunny thing {meowoutcome2}")
+
  # me printing out all the stuff at like 4am on monday. ya its not monday anymore i just forgot the notes lol 
 meowoutcome2 = {'pls spare me im so tired': student_name,'bunny gpa': current_gpa, 'bunny study': study_hours,'charizzma': social_points, 'stres': stress_level}
 print(f"final warrior stuff idk bunny thing {meowoutcome2}")
